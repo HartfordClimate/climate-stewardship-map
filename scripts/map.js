@@ -1050,8 +1050,8 @@ $(window).on('load', function() {
     var knoxLegend = $('.polygons-legend' + legendOrder['Trees by KNOX']);
     var knox = knoxLegend.children('form');
 
-    /* Rename Public Parks into Green Spaces */
-    ppLegend.find('h6').contents().eq(1).replaceWith('Green Space');
+    /* Rename Public Parks into Landscape */
+    ppLegend.find('h6').contents().eq(1).replaceWith('Landscape');
     ppLegend.find('form').find('i').addClass('fa fa-map').css('color', 'green');
 
     knox.find('i').addClass('fa fa-circle').css('color', 'green');
